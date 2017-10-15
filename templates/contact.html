@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+		<meta name="author" content = "Joon Lee" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		
+
+	</head>
+	<body id="page3">
+
+
+		<form name="myform" id="form_contact" action="/contact" method="POST">
+			<h1>Contact Form</h1>
+			<div id="notification">
+			
+			</div>
+			<br/>
+
+			<ul>
+				{{ notifications }}
+			</ul>
+
+			<div>
+				<label>
+					<span>Name: </span>
+					<input id = "name", name="name" type="text" />
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>E-mail: </span>
+					<input id = "email", name="email" type="email" />
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Subject: </span>
+					<input id = "subject", name="subject" type="text" />
+				</label>
+			</div>
+			<div>
+				<label>
+					<span>Message: </span><br />
+					<textarea id = "message", name="message" ></textarea><br />
+				</label>
+			</div>
+			
+			<input type="submit" value="Submit" />
+		</form>
+
+		<script src="/static/js/script.js"></script>
+
+
+		
+		<footer>
+			<h3>Other Pages</h3>
+			<ul>
+				<li><a href="index" target="_self">Homepage</a></li>
+				<li><a href="about" target="_self">About Us</a></li>
+				<li><a href="contact" target="_self">Contact Us</a></li>
+			</ul>
+		</footer>
+		
+	</body>
+</html>
+	

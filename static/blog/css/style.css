@@ -1,7 +1,14 @@
-#page1, #page2, #page3 { 
+#blog1, #blog2, #blog3, #blog4, #blog5 { 
     color: black;
     background-color: Aquamarine;
   
+}
+
+#weather {
+	float: right;
+	color: Navy;
+	font-size: 100%;
+	width: 10%;
 }
 
 h1 {
@@ -9,50 +16,49 @@ h1 {
 	top: 0;
 	color:DarkBlue;
 }
-#page1 .blog h2 {
+
+h2 {
 	color:DodgerBlue;
 }
 
-#page2 .post {
-	color:DodgerBlue;
-	font-size: 150%;
-}
-#page2 .details summary {
+h3 {
 	color:MediumBlue;
 	font-size: 120%;
 }
-#page2 .details p {
-	color:Navy;
-}
 
-#page3 .error {
+h4 {
+	font-size: 120%;
+	margin-bottom: 0.5em;
+}
+.error {
 	color:red;
 	margin-bottom: 0.5em;
 	font-size: 120%;
 }
-#page3 .send {
+.send {
 	color:green;
 	margin-bottom: 0.5em;
 	font-size: 120%;
 }
 
-#page3 #form_contact label {
+#blog_comment label {
 	color:MediumBlue;
 	font-size: 100%;
 }
-#page3 #form_contact input {
+
+#blog_comment input {
 	border: 2px solid green;
 	border-radius: 4px;
 	margin-bottom: 0.5em;
 }
-#page3 #form_contact textarea {
+#blog_comment textarea {
 	width: 300px;
 	height: 150px;
 	border: 2px solid green;
 	border-radius: 4px;
 	margin-bottom: 0.5em;
 }
-#page3 #form_contact label {
+#blog_comment label {
 	margin-bottom: 0.5em;
 }
 
